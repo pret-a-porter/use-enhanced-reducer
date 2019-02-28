@@ -1,0 +1,25 @@
+{
+  "name": "use-enhanced-reducer",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist && tsc --declaration",
+    "preversion": "npm run build"
+  },
+  "homepage": "https://github.com/pret-a-porter/use-enhanced-reducer",
+  "author": {
+    "name": "Maksim Sharipov",
+    "url": "https://github.com/pret-a-porter"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.5",
+    "react": "^16.8.3",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^16.8.0"
+  }
+}

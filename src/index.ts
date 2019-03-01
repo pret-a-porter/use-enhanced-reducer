@@ -8,7 +8,7 @@ export type TReducerMiddleware<S = any, A = any> = (
 export function useEnhancedReducer<S, A>(
 	reducer: React.Reducer<S, A>,
 	initalState: S,
-	middlewares: TReducerMiddleware[] = [loggerMiddleware],
+	middlewares: TReducerMiddleware[] = [],
 ): [S, React.Dispatch<A>] {
 	const [state, dispatch] = React.useReducer(reducer, initalState);
 

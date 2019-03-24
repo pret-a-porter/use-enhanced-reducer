@@ -9,7 +9,7 @@ Simple custom hook for use React.useReducer with middlewares.
 
 ### With logger middleware
 
-```jsx
+```ts
 import * as React from 'react';
 import { useEnhancedReducer, loggerMiddleware } from 'use-enhanced-reducer';
 
@@ -23,7 +23,7 @@ const SomeComponent: React.FunctionComponent<{}> = () => {
 
 ### With your custom middleware
 
-```jsx
+```ts
 import * as React from 'react';
 import { useEnhancedReducer, TReducerMiddleware } from 'use-enhanced-reducer';
 

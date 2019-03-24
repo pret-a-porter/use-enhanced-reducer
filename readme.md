@@ -5,7 +5,7 @@
 
 Simple custom hook for use React.useReducer with middlewares.
 
-# Example
+# Examples
 
 ### With logger middleware
 
